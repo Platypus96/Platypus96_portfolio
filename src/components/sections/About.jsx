@@ -2,14 +2,14 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
+    "JavaScript",
     "React",
-    "Vue",
-    "TypeScript",
     "TailwindCSS",
-    "Svelte",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js","MongoDB", "Hardhat", "Mocha & Chai"];
+
+  const blockchainSkills = ["Solidity","Ethereum", "Web3.js", "Smart Contracts", "IPFS"];
 
   return (
     <section
@@ -25,11 +25,10 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+            Passionate developer with expertise in building Web3 applications, primarily focused on DeFi solutions.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
@@ -61,6 +60,23 @@ export const About = () => {
                   ))}
                 </div>
               </div>
+
+              {/* Blockchain Skills Section */}
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4"> Blockchain</h3>
+                <div className="flex flex-wrap gap-2">
+                  {blockchainSkills.map((tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                    "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
 
@@ -69,12 +85,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.Tech in Electronics Enginnering </strong> - IIIT Allahabad
+                  (2023-going..)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Data Structures, Web Development, Blockchain Development
                 </li>
               </ul>
             </div>
@@ -84,22 +99,21 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Member at GeekHaven (2024 - Present){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    Developed and maintained various Blockchain projects.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Worked at NSC Lab of IIITA backed by C3i Hub of IIIT Kanpur (2025){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Assisted in building web components for Firmware Extraction Toolkit.
+                    
                   </p>
                 </div>
               </div>

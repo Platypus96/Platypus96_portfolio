@@ -14,13 +14,12 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+              <h3 className="text-xl font-bold mb-2"> Music Marketplace</h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+              Web3-powered platform where artists and fans interact directly, removing middlemen like record labels, streaming services, and distributors.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["Solidty", "Remix IDE"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -34,7 +33,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Platypus96/decentralised_music_marketplace"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -49,13 +48,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
+              <h3 className="text-xl font-bold mb-2">Mint_NFT</h3>
               <p className="text-gray-400 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+              Web3 ID Card Generator that lets users mint their unique identity cards as NFTs for secure and verifiable digital identity in decentralized ecosystems.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["JavasScript", "Solidity", "Hardhat", "Web3.js", "IPFS"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -72,7 +70,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Platypus96/Mint_NFT"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
