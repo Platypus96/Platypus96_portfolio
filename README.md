@@ -1,6 +1,12 @@
+Here’s your updated `README.md` with the website link added in a suitable location — under the "Installation" section and again in the introduction for quick access:
+
+---
+
 # Personal Portfolio
 
 This repository contains a beautiful, responsive personal portfolio built using **React**, **Vite**, and **TailwindCSS**. The project showcases modern web development techniques including smooth animations, responsive layouts, and interactive UI components.
+
+🌐 **Live Site:** [https://platypus96.github.io/Platypus96_portfolio/](https://platypus96.github.io/Platypus96_portfolio/)
 
 ## Features
 
@@ -37,7 +43,8 @@ This repository contains a beautiful, responsive personal portfolio built using 
    npm run dev
    ```
 
-   The application should now be running at [http://localhost:5173](http://localhost:5173).
+   The application should now be running at [http://localhost:5173](http://localhost:5173).  
+   👉 **Live version available at:** [https://platypus96.github.io/Platypus96_portfolio/](https://platypus96.github.io/Platypus96_portfolio/)
 
 ## Build
 
@@ -93,4 +100,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Happy coding and enjoy building your professional portfolio!
+Happy coding and enjoy building your professional portfolio!  
+✨ [Visit the Live Website](https://platypus96.github.io/Platypus96_portfolio/)
