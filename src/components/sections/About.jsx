@@ -3,13 +3,14 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "JavaScript",
-    "React",
+    "React.js",
+    "Next.js",
     "TailwindCSS",
   ];
 
-  const backendSkills = ["Node.js","MongoDB", "Hardhat", "Mocha & Chai"];
+  const backendSkills = ["Node.js", "MongoDB", "Hardhat", "Ethers.js"];
 
-  const blockchainSkills = ["Solidity","Ethereum", "Web3.js", "Smart Contracts", "IPFS"];
+  const blockchainSkills = ["Solidity", "IPFS", "Remix IDE"];
 
   return (
     <section
@@ -25,7 +26,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-            Passionate developer with expertise in building Web3 applications, primarily focused on DeFi solutions.
+              I am a passionate and driven developer with a strong foundation in computer science and a specialization in blockchain technology. My expertise lies in building secure, scalable, and efficient Web3 applications, with a particular focus on decentralized finance (DeFi) and smart contract development. I am also proficient in full-stack development, with experience in creating dynamic and user-friendly web applications using modern frameworks like React and Next.js.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -85,11 +86,13 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.Tech in Electronics Enginnering </strong> - IIIT Allahabad
-                  (2023-going..)
+                  <strong> B.Tech in Electronics and Communication Engineering </strong> - IIIT Allahabad (CGPA: 8.5/10)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Blockchain Development
+                  <strong> Minor in Economics and Finance </strong> - IIIT Allahabad (CGPA: 8.5/10)
+                </li>
+                <li>
+                  <strong> Senior Secondary (PCM) </strong> - National Public School, Gaya (Percentage: 94%)
                 </li>
               </ul>
             </div>
@@ -99,21 +102,20 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Member at GeekHaven (2024 - Present){" "}
+                    Research Intern at Network Security & Cryptography Lab, IIIT Allahabad (Sept 2023 - Present){" "}
                   </h4>
                   <p>
-                    Developed and maintained various Blockchain projects.
+                    Engineered firmware analysis tool using binary reverse engineering, reducing vulnerability detection time by 40%.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Worked at NSC Lab of IIITA backed by C3i Hub of IIIT Kanpur (2025){" "}
+                    Open Source Maintainer at Opencode’24 (May 2024 - Jul 2024){" "}
                   </h4>
                   <p>
-                    Assisted in building web components for Firmware Extraction Toolkit.
-                    
+                    Led development team of 30+ contributors for CryptoWallet project, accelerating release timeline by 3 weeks.
                   </p>
                 </div>
               </div>
