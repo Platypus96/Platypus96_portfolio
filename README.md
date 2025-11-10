@@ -1,7 +1,3 @@
-Here’s your updated `README.md` with the website link added in a suitable location — under the "Installation" section and again in the introduction for quick access:
-
----
-
 # Personal Portfolio
 
 This repository contains a beautiful, responsive personal portfolio built using **React**, **Vite**, and **TailwindCSS**. The project showcases modern web development techniques including smooth animations, responsive layouts, and interactive UI components.
