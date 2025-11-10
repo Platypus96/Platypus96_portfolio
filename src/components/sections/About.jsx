@@ -26,7 +26,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              I am a passionate and driven developer with a strong foundation in computer science and a specialization in blockchain technology. My expertise lies in building secure, scalable, and efficient Web3 applications, with a particular focus on decentralized finance (DeFi) and smart contract development. I am also proficient in full-stack development, with experience in creating dynamic and user-friendly web applications using modern frameworks like React and Next.js.
+              Passionate developer specializing in secure, scalable, and efficient Web3 applications, particularly in DeFi and smart contract development. Proficient in full-stack development with modern frameworks like React and Next.js.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -93,6 +93,9 @@ export const About = () => {
                 </li>
                 <li>
                   <strong> Senior Secondary (PCM) </strong> - National Public School, Gaya (Percentage: 94%)
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/adarsh-kumar-6a403a297/details/certifications/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">View Certifications</a>
                 </li>
               </ul>
             </div>
